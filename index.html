@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Barcode Generator – Free Online Barcode Maker</title>
+<meta name="description" content="Free online barcode generator. Make Code 128, Code 39, EAN-13, UPC-A and EAN-8 barcodes, download PNG or SVG. No signup, runs in your browser.">
+<link rel="canonical" href="https://barcodegenerator.globrik.com/">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="theme-color" content="#0b5fff">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Globrik">
+<meta property="og:title" content="Barcode Generator – Free Online Barcode Maker">
+<meta property="og:description" content="Free online barcode generator. Make Code 128, Code 39, EAN-13, UPC-A and EAN-8 barcodes, download PNG or SVG. No signup, runs in your browser.">
+<meta property="og:url" content="https://barcodegenerator.globrik.com/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Barcode Generator – Free Online Barcode Maker">
+<meta name="twitter:description" content="Free online barcode generator. Make Code 128, Code 39, EAN-13, UPC-A and EAN-8 barcodes, download PNG or SVG. No signup, runs in your browser.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230b5fff'/%3E%3Cpath d='M6 7h2v18H6zM10 7h1v18h-1zM13 7h3v18h-3zM18 7h1v18h-1zM21 7h2v18h-2zM25 7h1v18h-1z' fill='%23fff'/%3E%3C/svg%3E">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Barcode Generator","description":"Free online barcode generator for Code 128, Code 39, EAN-13, UPC-A and EAN-8. Download as PNG or SVG. Runs in your browser.","url":"https://barcodegenerator.globrik.com/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://globrik.com/"},{"@type":"ListItem","position":2,"name":"Barcode Generator","item":"https://barcodegenerator.globrik.com/"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Is this barcode generator really free?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. It's a free barcode generator with no trial, paywall or watermark. You can make as many barcodes as you like and download each one as a PNG or SVG. There's nothing to pay for, and you don't need to create an account first."}}, {"@type": "Question", "name": "Do I need to sign up or install anything?", "acceptedAnswer": {"@type": "Answer", "text": "No. Open the page, enter your value and generate. There's no registration, no email requirement and no software to install. It runs in any modern browser on Windows, macOS, Linux, Android and iOS, so you can start immediately on whichever device you have."}}, {"@type": "Question", "name": "Is it safe to enter my data?", "acceptedAnswer": {"@type": "Answer", "text": "The barcode is built in your browser, and your value isn't uploaded. Still, don't encode passwords or private details: anyone who scans a printed barcode can read what's inside it. Use barcodes for IDs, SKUs and labels, not for secrets."}}, {"@type": "Question", "name": "Are there limits on how many barcodes I can make?", "acceptedAnswer": {"@type": "Answer", "text": "There's no daily cap or usage counter. The limits are technical: Code 128 and Code 39 values can be up to 80 characters, and bar height ranges from 40 to 300 px. Retail formats need a fixed number of digits, shown in the specs table above."}}, {"@type": "Question", "name": "Does this barcode maker work on mobile?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. The layout adapts to phones and tablets, and buttons are sized for touch. On many phones the PNG saves to your downloads or photos. If copy-to-clipboard isn't supported by your mobile browser, use the download buttons instead. Phones with a decent camera can also scan the preview straight off another screen."}}, {"@type": "Question", "name": "Will the barcode lose quality when I download it?", "acceptedAnswer": {"@type": "Answer", "text": "The PNG is drawn at the exact pixel size shown, so it's crisp at that size but can blur if you enlarge it. The SVG is vector and stays sharp at any size. For printing, choose SVG or pick a larger bar width before you generate."}}, {"@type": "Question", "name": "Does it work offline?", "acceptedAnswer": {"@type": "Answer", "text": "Once the page has finished loading, yes. All the code is inside the page and it makes no further network requests, so you can generate barcodes without a connection. You'll need to be online to open the page the first time."}}, {"@type": "Question", "name": "Which barcode type should I choose?", "acceptedAnswer": {"@type": "Answer", "text": "Choose Code 128 unless you have a reason not to. It's compact and handles letters, numbers and symbols. Choose Code 39 when a system asks for it, and choose EAN-13, UPC-A or EAN-8 when you need a numeric retail-style barcode with a check digit."}}, {"@type": "Question", "name": "Can I use EAN-13 or UPC-A codes to sell products in stores?", "acceptedAnswer": {"@type": "Answer", "text": "This tool creates a correctly formatted barcode, but it doesn't register your number. Retailers and marketplaces normally expect numbers licensed through GS1, which assigns company prefixes. For internal inventory, internal-use numbers and Code 128 labels are usually enough, and they avoid any clash with real products."}}, {"@type": "Question", "name": "Why won't my barcode scan?", "acceptedAnswer": {"@type": "Answer", "text": "The usual causes are low contrast, bars that are too small, a cropped quiet zone, or a stretched image. Use black on white, increase the bar width, keep the margins and print at 100% scale. Then test with your actual scanner."}}]}</script>
+<style>
+:root{--bg:#f6f8fb;--card:#fff;--tx:#14213d;--mu:#4a5568;--bd:#d5dce6;--pr:#0b5fff;--pt:#fff;--ok:#0a6b3a;--er:#b00020;--ac:#eaf1ff}
+@media(prefers-color-scheme:dark){:root{--bg:#0e1420;--card:#171f2e;--tx:#eef2f9;--mu:#b4bfd1;--bd:#2d3a50;--pr:#6c9dff;--pt:#0a1020;--ok:#5fd596;--er:#ff8a9b;--ac:#1c2942}}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--tx);font:17px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+a{color:var(--pr)}
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,summary:focus-visible{outline:3px solid var(--pr);outline-offset:2px}
+.w{max-width:900px;margin:0 auto;padding:0 16px}
+header{background:var(--card);border-bottom:1px solid var(--bd)}
+header .w{display:flex;flex-wrap:wrap;align-items:center;gap:8px 20px;padding-top:10px;padding-bottom:10px}
+.logo{font-weight:800;font-size:1.3rem;color:var(--pr);text-decoration:none}
+header nav a{display:inline-block;padding:10px 8px;color:var(--tx);text-decoration:none;font-size:.95rem}
+header nav a:hover{text-decoration:underline}
+h1{font-size:2rem;line-height:1.2;margin:28px 0 8px}
+h2{font-size:1.5rem;line-height:1.3;margin:36px 0 10px}
+h3{font-size:1.15rem;margin:22px 0 6px}
+p{margin:0 0 14px}
+.lead{color:var(--mu);font-size:1.1rem;margin-bottom:18px}
+.card{background:var(--card);border:1px solid var(--bd);border-radius:14px;padding:20px;margin-bottom:22px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.f{display:flex;flex-direction:column;gap:4px}
+.f.full{grid-column:1/-1}
+label{font-weight:600;font-size:.95rem}
+input[type=text],input[type=number],select{min-height:46px;padding:8px 12px;border:1px solid var(--bd);border-radius:10px;background:var(--bg);color:var(--tx);font:inherit;width:100%}
+input[type=color]{min-height:46px;width:100%;padding:3px;border:1px solid var(--bd);border-radius:10px;background:var(--bg)}
+.ck{flex-direction:row;align-items:center;gap:10px;min-height:46px}
+.ck input{width:22px;height:22px}
+.hint{font-size:.88rem;color:var(--mu)}
+.row{display:flex;flex-wrap:wrap;gap:10px;margin-top:16px}
+button{min-height:46px;padding:10px 18px;border-radius:10px;border:1px solid var(--pr);background:var(--pr);color:var(--pt);font:inherit;font-weight:700;cursor:pointer}
+button.s{background:transparent;color:var(--pr)}
+button:disabled{opacity:.45;cursor:not-allowed}
+#status{min-height:28px;margin-top:14px;font-weight:600}
+#status.e{color:var(--er)}#status.o{color:var(--ok)}
+#out{min-height:180px;margin-top:10px;display:flex;align-items:center;justify-content:center;background:var(--bg);border:1px dashed var(--bd);border-radius:12px;padding:10px;overflow:auto;color:var(--mu)}
+#cv{max-width:100%;height:auto;display:none}
+.toc{display:flex;flex-wrap:wrap;gap:6px 14px;padding:0;margin:0;list-style:none}
+.toc a{display:inline-block;padding:8px 2px}
+.qa{background:var(--ac);border-left:5px solid var(--pr);border-radius:10px;padding:16px 18px;margin-bottom:22px}
+.qa h2{margin-top:0}
+table{width:100%;border-collapse:collapse;margin:10px 0 18px;font-size:.95rem}
+.tw{overflow-x:auto}
+th,td{border:1px solid var(--bd);padding:9px 10px;text-align:left;vertical-align:top}
+th{background:var(--ac)}
+details{background:var(--card);border:1px solid var(--bd);border-radius:10px;margin-bottom:10px;padding:0 16px}
+summary{cursor:pointer;font-weight:700;padding:14px 0;min-height:44px}
+details p{margin:0 0 14px}
+li{margin-bottom:6px}
+.rel{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:10px;padding:0;list-style:none}
+.rel a{display:block;padding:12px;border:1px solid var(--bd);border-radius:10px;background:var(--card);text-decoration:none;font-weight:600}
+footer{background:var(--card);border-top:1px solid var(--bd);margin-top:40px;padding:24px 0;font-size:.92rem;color:var(--mu)}
+footer nav a{display:inline-block;padding:8px 10px 8px 0}
+@media(max-width:600px){.grid{grid-template-columns:1fr}h1{font-size:1.65rem}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important;animation:none!important}}
+</style>
+</head>
+<body>
+<header>
+<div class="w">
+<a class="logo" href="https://globrik.com/">Globrik</a>
+<nav aria-label="Globrik tools">
+<a href="https://qrcodegenerator.globrik.com/">QR Code Generator</a>
+<a href="https://invoicegenerator.globrik.com/">Invoice Generator</a>
+<a href="https://resizeimage.globrik.com/">Resize Image</a>
+<a href="https://passwordgenerator.globrik.com/">Password Generator</a>
+<a href="https://wordcounter.globrik.com/">Word Counter</a>
+</nav>
+</div>
+</header>
+<main class="w">
+<h1>Free Barcode Generator</h1>
+<p class="lead">Type your number or text, pick a format, and download a scannable barcode as PNG or SVG in seconds.</p>
+
+<section id="tool" class="card" aria-label="Barcode generator tool">
+<div class="grid">
+<div class="f"><label for="fmt">Barcode format</label>
+<select id="fmt">
+<option value="c128">Code 128 (text and numbers)</option>
+<option value="c39">Code 39 (A-Z, 0-9, symbols)</option>
+<option value="ean13">EAN-13 (13 digits)</option>
+<option value="upca">UPC-A (12 digits)</option>
+<option value="ean8">EAN-8 (8 digits)</option>
+</select></div>
+<div class="f"><label for="val">Barcode value</label>
+<input type="text" id="val" maxlength="80" autocomplete="off" spellcheck="false" placeholder="Example: GLOBRIK-2026" aria-describedby="hint">
+<span class="hint" id="hint"></span></div>
+<div class="f"><label for="mw">Bar width</label>
+<select id="mw"><option value="2">Narrow (2 px)</option><option value="3" selected>Standard (3 px)</option><option value="4">Large (4 px)</option><option value="6">Extra large (6 px)</option></select></div>
+<div class="f"><label for="h">Bar height (40 to 300 px)</label>
+<input type="number" id="h" min="40" max="300" value="100" inputmode="numeric"></div>
+<div class="f"><label for="fg">Bar color</label><input type="color" id="fg" value="#000000"></div>
+<div class="f"><label for="bg">Background color</label><input type="color" id="bg" value="#ffffff"></div>
+<div class="f full ck"><input type="checkbox" id="txt" checked><label for="txt">Show the value as text under the bars</label></div>
+</div>
+<div class="row">
+<button type="button" id="go">Generate barcode</button>
+<button type="button" class="s" id="png" disabled>Download PNG</button>
+<button type="button" class="s" id="svg" disabled>Download SVG</button>
+<button type="button" class="s" id="cp" disabled>Copy image</button>
+<button type="button" class="s" id="rs">Reset / Start over</button>
+</div>
+<div id="status" role="status" aria-live="polite"></div>
+<div id="out"><span id="ph">Your barcode will appear here.</span><canvas id="cv" role="img" aria-label="Generated barcode preview"></canvas></div>
+<p class="hint" style="margin:12px 0 0">Your data is processed in your browser and is never uploaded.</p>
+<noscript><p>This barcode generator needs JavaScript to run.</p></noscript>
+</section>
+
+<nav class="card" aria-label="On this page">
+<strong>On this page</strong>
+<ul class="toc">
+<li><a href="#quick">Quick answer</a></li><li><a href="#why">Why use it</a></li><li><a href="#guide">Step-by-step</a></li><li><a href="#specs">Formats and limits</a></li><li><a href="#uses">Use cases</a></li><li><a href="#tips">Tips</a></li><li><a href="#privacy">Privacy</a></li><li><a href="#compare">Alternatives</a></li><li><a href="#trouble">Troubleshooting</a></li><li><a href="#glossary">Glossary</a></li><li><a href="#faq">FAQ</a></li>
+</ul>
+</nav>
+
+<section id="quick" class="qa">
+<h2>How to use this barcode generator</h2>
+<p>Choose a format, type your value, and click Generate barcode. Then download the result as a PNG or SVG. Use Code 128 for general text and numbers, Code 39 for simple uppercase labels, and EAN-13, UPC-A or EAN-8 for retail-style numeric codes. Everything runs in your browser, so nothing is uploaded.</p>
+<ol>
+<li>Pick a format from the dropdown.</li>
+<li>Type or paste your value.</li>
+<li>Adjust width, height and colors if you want.</li>
+<li>Click Generate barcode.</li>
+<li>Download PNG, download SVG, or copy the image.</li>
+</ol>
+</section>
+
+<article>
+<section id="intro">
+<h2>A free barcode generator that works in your browser</h2>
+<p>A barcode is a pattern of bars that a scanner reads as a string of characters. This free barcode generator turns the text or number you type into a clean, printable barcode in five common formats. You get a live preview, then a PNG for documents or an SVG for print work.</p>
+<p>If you searched for a barcode generator free of signups, watermarks and download limits, that's what this page is. Open it, make your barcode, and leave. There's no account, no email and no queue.</p>
+</section>
+
+<section id="why">
+<h2>Why use this free online barcode generator</h2>
+<ul>
+<li><strong>No signup.</strong> You never create an account or hand over an email address.</li>
+<li><strong>No watermark.</strong> The PNG and SVG files contain only your barcode.</li>
+<li><strong>Private by design.</strong> The value you type stays in your browser tab.</li>
+<li><strong>Vector output.</strong> The SVG download stays sharp at any print size.</li>
+<li><strong>Check digits handled.</strong> For EAN-13, UPC-A and EAN-8, enter the digits without the last one and the tool calculates it. If you enter the full number, it verifies it.</li>
+<li><strong>Custom look.</strong> Set bar width, height and colors, or hide the text line.</li>
+</ul>
+<p>Need a square code for phones instead? Try the <a href="https://qrcodegenerator.globrik.com/">QR Code Generator</a>.</p>
+</section>
+
+<section id="guide">
+<h2>Step-by-step: how to make a barcode</h2>
+<h3>1. Choose the right format</h3>
+<p>Code 128 is the safest default because it handles upper and lowercase letters, digits and punctuation. Pick Code 39 only if a system specifically asks for it. Pick EAN-13, UPC-A or EAN-8 when you need a numeric retail-style code.</p>
+<h3>2. Enter your value</h3>
+<p>Type or paste the value. The hint under the box tells you what the selected format accepts. Code 39 converts lowercase letters to uppercase for you. Numeric formats accept digits only.</p>
+<h3>3. Set the size and colors</h3>
+<p>The standard 3 px bar width suits most screens and desktop printers. Go wider for labels printed small or scanned from a distance. Keep dark bars on a light background; the tool warns you if the contrast is too low to scan.</p>
+<h3>4. Generate and download</h3>
+<p>Click Generate barcode. The preview updates as you change options. Download the PNG for Word, Google Docs or slides. Download the SVG for design software or sharp professional printing. You can also copy the image to your clipboard where your browser allows it.</p>
+<h3>5. Test before you print</h3>
+<p>Scan the on-screen barcode with a phone scanner app or your actual scanner. Do this before you print a whole sheet of labels.</p>
+</section>
+
+<section id="specs">
+<h2>Supported barcode formats and limits</h2>
+<div class="tw"><table>
+<caption class="hint">What each format accepts in this tool</caption>
+<thead><tr><th>Format</th><th>Accepts</th><th>Length</th><th>Check digit</th></tr></thead>
+<tbody>
+<tr><td>Code 128</td><td>Keyboard characters (ASCII 32 to 126)</td><td>1 to 80 characters</td><td>Added automatically</td></tr>
+<tr><td>Code 39</td><td>A-Z, 0-9, space and - . $ / + %</td><td>1 to 80 characters</td><td>None needed</td></tr>
+<tr><td>EAN-13</td><td>Digits only</td><td>12 digits, or 13 with check digit</td><td>Calculated or verified</td></tr>
+<tr><td>UPC-A</td><td>Digits only</td><td>11 digits, or 12 with check digit</td><td>Calculated or verified</td></tr>
+<tr><td>EAN-8</td><td>Digits only</td><td>7 digits, or 8 with check digit</td><td>Calculated or verified</td></tr>
+</tbody></table></div>
+<p>Output files are PNG and SVG. Bar height runs from 40 to 300 px, and bar width from 2 to 6 px. Code 128 uses subsets B and C, chosen automatically: an even-length all-digit value is packed in subset C, and everything else uses subset B.</p>
+</section>
+
+<section id="uses">
+<h2>Barcode use cases</h2>
+<ul>
+<li><strong>Small business owners</strong> label shelves, bins and handmade products with Code 128 SKUs.</li>
+<li><strong>Warehouse and stockroom staff</strong> tag boxes and locations so a scanner can look them up fast.</li>
+<li><strong>Teachers and librarians</strong> number books, devices and lab equipment for check-out.</li>
+<li><strong>Event organizers</strong> print ticket or badge IDs for quick check-in lines.</li>
+<li><strong>Office managers</strong> tag laptops, monitors and other assets for inventory counts.</li>
+<li><strong>Freelancers and sellers</strong> add a barcode to a printed invoice. Our <a href="https://invoicegenerator.globrik.com/">Invoice Generator</a> pairs well with this.</li>
+<li><strong>Developers and testers</strong> create sample barcodes to test scanner input or label layouts.</li>
+</ul>
+</section>
+
+<section id="features">
+<h2>Key features and benefits</h2>
+<ul>
+<li>Five formats: Code 128, Code 39, EAN-13, UPC-A and EAN-8</li>
+<li>PNG and SVG downloads, plus copy to clipboard</li>
+<li>Adjustable bar width, height and colors</li>
+<li>Optional human-readable text under the bars</li>
+<li>Automatic check digit calculation and validation for retail formats</li>
+<li>Clear error messages instead of silent failures</li>
+<li>Works on phones, tablets and desktops, with keyboard support</li>
+<li>Light and dark page themes that follow your device</li>
+</ul>
+</section>
+
+<section id="tips">
+<h2>Expert tips and common mistakes</h2>
+<ul>
+<li><strong>Keep the quiet zone.</strong> The blank margin on each side is part of the barcode. This tool adds it, so don't crop it off.</li>
+<li><strong>Don't stretch the image.</strong> Resizing a PNG with unequal width and height distorts the bars. Scale it proportionally, or use the SVG.</li>
+<li><strong>Print at 100% scale.</strong> Browser "fit to page" settings can shrink bars below what a scanner can read.</li>
+<li><strong>Avoid tiny PNGs.</strong> If you must shrink a barcode, use the <a href="https://resizeimage.globrik.com/">Resize Image</a> tool and keep the aspect ratio locked.</li>
+<li><strong>Use dark on light.</strong> Red bars or pale colors on white often fail under scanner lasers.</li>
+<li><strong>Match the system.</strong> If your inventory software expects Code 128, don't switch to Code 39 because it looks simpler.</li>
+<li><strong>Don't guess retail numbers.</strong> An EAN-13 or UPC-A made here is a valid pattern, but it isn't a registered product number.</li>
+<li><strong>Mind the length.</strong> Long values make wide barcodes. Shorten the value or use a larger sheet.</li>
+</ul>
+</section>
+
+<section id="privacy">
+<h2>Privacy and security</h2>
+<p>This tool is a client-side page. When you click Generate, JavaScript in your browser calculates the bars and draws them on a canvas. The value you type is not sent to a server, and the generated PNG and SVG files are created locally on your device.</p>
+<p>The page makes no external requests for fonts, scripts or images. Only the page itself loads. Closing the tab clears what you entered. Avoid putting passwords or secrets into any barcode, though: anyone who scans or photographs the printed code can read the value.</p>
+</section>
+
+<section id="compare">
+<h2>This tool vs. alternatives</h2>
+<div class="tw"><table>
+<thead><tr><th></th><th>This browser tool</th><th>Desktop label software</th><th>Server-based online generators</th></tr></thead>
+<tbody>
+<tr><td>Install needed</td><td>No</td><td>Yes</td><td>No</td></tr>
+<tr><td>Account needed</td><td>No</td><td>Sometimes</td><td>Varies</td></tr>
+<tr><td>Where data is processed</td><td>Your browser</td><td>Your computer</td><td>Their server</td></tr>
+<tr><td>Best for</td><td>Quick single barcodes</td><td>Large label runs, databases</td><td>Varies by site</td></tr>
+</tbody></table></div>
+<p>Desktop label software is better when you print thousands of labels from a spreadsheet. This free barcode generator is built for the quick job: one code, right now, no setup.</p>
+</section>
+
+<section id="trouble">
+<h2>Troubleshooting</h2>
+<h3>My barcode won't scan</h3>
+<p>Check contrast first: use black bars on white. Then increase bar width and height, and make sure the quiet zone wasn't cropped.</p>
+<h3>I get "check digit" errors on EAN or UPC</h3>
+<p>You entered the full number and the last digit doesn't match. Remove the last digit and let the tool calculate it, or use the digit shown in the message.</p>
+<h3>Code 39 says a character isn't supported</h3>
+<p>Code 39 only allows A-Z, 0-9, space and - . $ / + %. Switch to Code 128 if you need other symbols.</p>
+<h3>The barcode looks blurry when printed</h3>
+<p>The PNG was probably scaled up. Download the SVG, or choose a larger bar width before generating.</p>
+<h3>Copy image does nothing</h3>
+<p>Some browsers block clipboard image access. Use Download PNG instead.</p>
+<h3>The barcode is too wide for my label</h3>
+<p>Shorten the value, choose a narrower bar width, or switch from Code 39 to Code 128, which is more compact.</p>
+<h3>Nothing happens when I click Generate</h3>
+<p>Make sure JavaScript is enabled, then read the red status message under the buttons. It names the exact problem.</p>
+</section>
+
+<section id="glossary">
+<h2>Glossary</h2>
+<ul>
+<li><strong>Symbology:</strong> the rule set for a barcode type, such as Code 128 or EAN-13.</li>
+<li><strong>Check digit:</strong> a final digit calculated from the others, so scanners can catch misreads.</li>
+<li><strong>Quiet zone:</strong> the blank margin on each side of the bars.</li>
+<li><strong>Module:</strong> the width of the narrowest bar. Other bars are multiples of it.</li>
+<li><strong>EAN / UPC:</strong> numeric retail barcode families used on packaged products.</li>
+<li><strong>GS1:</strong> the organization that issues official company prefixes for retail codes. See <a href="https://www.gs1.org/" rel="noopener">gs1.org</a>.</li>
+</ul>
+</section>
+
+<section id="faq">
+<h2>Barcode generator FAQ</h2>
+<details><summary>Is this barcode generator really free?</summary><p>Yes. It's a free barcode generator with no trial, paywall or watermark. You can make as many barcodes as you like and download each one as a PNG or SVG. There's nothing to pay for, and you don't need to create an account first.</p></details>
+<details><summary>Do I need to sign up or install anything?</summary><p>No. Open the page, enter your value and generate. There's no registration, no email requirement and no software to install. It runs in any modern browser on Windows, macOS, Linux, Android and iOS, so you can start immediately on whichever device you have.</p></details>
+<details><summary>Is it safe to enter my data?</summary><p>The barcode is built in your browser, and your value isn't uploaded. Still, don't encode passwords or private details: anyone who scans a printed barcode can read what's inside it. Use barcodes for IDs, SKUs and labels, not for secrets.</p></details>
+<details><summary>Are there limits on how many barcodes I can make?</summary><p>There's no daily cap or usage counter. The limits are technical: Code 128 and Code 39 values can be up to 80 characters, and bar height ranges from 40 to 300 px. Retail formats need a fixed number of digits, shown in the specs table above.</p></details>
+<details><summary>Does this barcode maker work on mobile?</summary><p>Yes. The layout adapts to phones and tablets, and buttons are sized for touch. On many phones the PNG saves to your downloads or photos. If copy-to-clipboard isn't supported by your mobile browser, use the download buttons instead. Phones with a decent camera can also scan the preview straight off another screen.</p></details>
+<details><summary>Will the barcode lose quality when I download it?</summary><p>The PNG is drawn at the exact pixel size shown, so it's crisp at that size but can blur if you enlarge it. The SVG is vector and stays sharp at any size. For printing, choose SVG or pick a larger bar width before you generate.</p></details>
+<details><summary>Does it work offline?</summary><p>Once the page has finished loading, yes. All the code is inside the page and it makes no further network requests, so you can generate barcodes without a connection. You'll need to be online to open the page the first time.</p></details>
+<details><summary>Which barcode type should I choose?</summary><p>Choose Code 128 unless you have a reason not to. It's compact and handles letters, numbers and symbols. Choose Code 39 when a system asks for it, and choose EAN-13, UPC-A or EAN-8 when you need a numeric retail-style barcode with a check digit.</p></details>
+<details><summary>Can I use EAN-13 or UPC-A codes to sell products in stores?</summary><p>This tool creates a correctly formatted barcode, but it doesn't register your number. Retailers and marketplaces normally expect numbers licensed through GS1, which assigns company prefixes. For internal inventory, internal-use numbers and Code 128 labels are usually enough, and they avoid any clash with real products.</p></details>
+<details><summary>Why won't my barcode scan?</summary><p>The usual causes are low contrast, bars that are too small, a cropped quiet zone, or a stretched image. Use black on white, increase the bar width, keep the margins and print at 100% scale. Then test with your actual scanner.</p></details>
+</section>
+
+<section id="conclusion">
+<h2>Make your barcode now</h2>
+<p>You don't need software or an account to make a barcode. Scroll up, pick a format, enter your value and download the file. For more on how Code 128 works, see <a href="https://en.wikipedia.org/wiki/Code_128" rel="noopener">Wikipedia's Code 128 entry</a>. Bookmark this free barcode generator, and compress or resize your finished labels with our <a href="https://compressimage.globrik.com/">Compress Image File</a> tool when you need smaller files.</p>
+</section>
+
+<section id="related">
+<h2>Related tools</h2>
+<ul class="rel">
+<li><a href="https://qrcodegenerator.globrik.com/">QR Code Generator for links, text and Wi-Fi</a></li>
+<li><a href="https://invoicegenerator.globrik.com/">Invoice Generator for quick printable invoices</a></li>
+<li><a href="https://resizeimage.globrik.com/">Resize Image to exact dimensions</a></li>
+<li><a href="https://compressimage.globrik.com/">Compress Image File without fuss</a></li>
+<li><a href="https://imagetobase64.globrik.com/">Image to Base64 Converter for embedding</a></li>
+</ul>
+</section>
+</article>
+</main>
+<footer>
+<div class="w">
+<nav aria-label="Footer links">
+<a href="https://sites.google.com/view/globriklegal/privacy-policy">Privacy Policy</a>
+<a href="https://sites.google.com/view/globriklegal/terms-of-use">Terms</a>
+<a href="https://sites.google.com/view/globriklegal/contact">Contact</a>
+<a href="https://sites.google.com/view/globriklegal/about">About</a>
+</nav>
+<p>Disclaimer: barcodes are generated for your own use. Only encode content you own or have the right to use, and test every barcode with your scanner before relying on it.</p>
+<p>Last updated: November 2026 &middot; &copy; 2026 Globrik</p>
+</div>
+</footer>
+<script>
+(function(){try{
+var $=function(i){return document.getElementById(i)};
+var P="212222 222122 222221 121223 121322 131222 122213 122312 132212 221213 221312 231212 112232 122132 122231 113222 123122 123221 223211 221132 221231 213212 223112 312131 311222 321122 321221 312212 322112 322211 212123 212321 232121 111323 131123 131321 112313 132113 132311 211313 231113 231311 112133 112331 132131 113123 113321 133121 313121 211331 231131 213113 213311 213131 311123 311321 331121 312113 312311 332111 314111 221411 431111 111224 111422 121124 121421 141122 141221 112214 112412 122114 122411 142112 142211 241211 221114 413111 241112 134111 111242 121142 121241 114212 124112 124211 411212 421112 421211 212141 214121 412121 111143 111341 131141 114113 114311 411113 411311 113141 114131 311141 411131 211412 211214 211232".split(" ");
+var STOP="2331112";
+var C39={"0":"nnnwwnwnn","1":"wnnwnnnnw","2":"nnwwnnnnw","3":"wnwwnnnnn","4":"nnnwwnnnw","5":"wnnwwnnnn","6":"nnwwwnnnn","7":"nnnwnnwnw","8":"wnnwnnwnn","9":"nnwwnnwnn","A":"wnnnnwnnw","B":"nnwnnwnnw","C":"wnwnnwnnn","D":"nnnnwwnnw","E":"wnnnwwnnn","F":"nnwnwwnnn","G":"nnnnnwwnw","H":"wnnnnwwnn","I":"nnwnnwwnn","J":"nnnnwwwnn","K":"wnnnnnnww","L":"nnwnnnnww","M":"wnwnnnnwn","N":"nnnnwnnww","O":"wnnnwnnwn","P":"nnwnwnnwn","Q":"nnnnnnwww","R":"wnnnnnwwn","S":"nnwnnnwwn","T":"nnnnwnwwn","U":"wwnnnnnnw","V":"nwwnnnnnw","W":"wwwnnnnnn","X":"nwnnwnnnw","Y":"wwnnwnnnn","Z":"nwwnwnnnn","-":"nwnnnnwnw",".":"wwnnnnwnn"," ":"nwwnnnwnn","*":"nwnnwnwnn","$":"nwnwnwnnn","/":"nwnwnnnwn","+":"nwnnnwnwn","%":"nnnwnwnwn"};
+var L=["0001101","0011001","0010011","0111101","0100011","0110001","0101111","0111011","0110111","0001011"];
+var R=L.map(function(x){return x.replace(/[01]/g,function(c){return c==="1"?"0":"1"})});
+var G=R.map(function(x){return x.split("").reverse().join("")});
+var PAR=["LLLLLL","LLGLGG","LLGGLG","LLGGGL","LGLLGG","LGGLLG","LGGGLL","LGLGLG","LGLGGL","LGGLGL"];
+var HINTS={c128:"Any keyboard characters, up to 80.",c39:"A-Z, 0-9, space and - . $ / + % (up to 80).",ean13:"12 digits (check digit added) or 13 digits.",upca:"11 digits (check digit added) or 12 digits.",ean8:"7 digits (check digit added) or 8 digits."};
+var PH={c128:"Example: GLOBRIK-2026",c39:"Example: ITEM-0042",ean13:"Example: 590123412345",upca:"Example: 03600029145",ean8:"Example: 9638507"};
+var svgStr="",has=false,cv=$("cv");
+function say(m,t){var s=$("status");s.textContent=m||"";s.className=t||""}
+function chk(d){var s=0,w=3;for(var i=d.length-1;i>=0;i--){s+=(+d[i])*w;w=4-w}return(10-s%10)%10}
+function b2r(b){var r=[],n=1;for(var i=1;i<b.length;i++){if(b[i]===b[i-1])n++;else{r.push(n);n=1}}r.push(n);return r}
+function e128(s){
+if(!s.length)throw new Error("Enter a value first.");
+if(s.length>80)throw new Error("Code 128 is limited to 80 characters here.");
+for(var i=0;i<s.length;i++){var k=s.charCodeAt(i);if(k<32||k>126)throw new Error("Code 128 here supports keyboard characters only (ASCII 32 to 126).")}
+var v=[],st;
+if(/^\d+$/.test(s)&&s.length%2===0){st=105;for(var j=0;j<s.length;j+=2)v.push(+s.substr(j,2))}
+else{st=104;for(var q=0;q<s.length;q++)v.push(s.charCodeAt(q)-32)}
+var sum=st;v.forEach(function(x,i){sum+=x*(i+1)});
+var all=[st].concat(v,[sum%103]),runs=[];
+all.forEach(function(x){P[x].split("").forEach(function(d){runs.push(+d)})});
+STOP.split("").forEach(function(d){runs.push(+d)});
+return{runs:runs,text:s};
+}
+function e39(s){
+if(!s.length)throw new Error("Enter a value first.");
+if(s.length>80)throw new Error("Code 39 is limited to 80 characters here.");
+var runs=[],t="*"+s+"*";
+for(var i=0;i<t.length;i++){var p=C39[t[i]];
+if(!p||(t[i]==="*"&&i>0&&i<t.length-1))throw new Error("Code 39 can't encode \""+t[i]+"\". Use A-Z, 0-9, space and - . $ / + % only, or switch to Code 128.");
+p.split("").forEach(function(c){runs.push(c==="w"?3:1)});
+if(i<t.length-1)runs.push(1)}
+return{runs:runs,text:s};
+}
+function eEAN(f,v){
+if(!v.length)throw new Error("Enter a value first.");
+if(!/^\d+$/.test(v))throw new Error("This format accepts digits only.");
+var n={ean13:12,upca:11,ean8:7}[f],d=v,note="";
+if(v.length===n){d=v+chk(v);note="Check digit "+chk(v)+" was added."}
+else if(v.length===n+1){var c=chk(v.slice(0,-1));if(String(c)!==v.slice(-1))throw new Error("The last digit doesn't match. The correct check digit is "+c+".")}
+else throw new Error("This format needs "+n+" or "+(n+1)+" digits. You entered "+v.length+".");
+var b="101",i;
+if(f==="ean8"){for(i=0;i<4;i++)b+=L[+d[i]];b+="01010";for(i=4;i<8;i++)b+=R[+d[i]]}
+else{var e=f==="upca"?"0"+d:d,p=PAR[+e[0]];for(i=0;i<6;i++)b+=(p[i]==="L"?L:G)[+e[i+1]];b+="01010";for(i=7;i<13;i++)b+=R[+e[i]]}
+b+="101";
+return{runs:b2r(b),text:d,note:note};
+}
+function lum(h){var c=[1,3,5].map(function(i){var x=parseInt(h.substr(i,2),16)/255;return x<=0.03928?x/12.92:Math.pow((x+0.055)/1.055,2.4)});return 0.2126*c[0]+0.7152*c[1]+0.0722*c[2]}
+function esc(s){return s.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;")}
+function draw(enc,o){
+var mods=enc.runs.reduce(function(a,b){return a+b},0),q=10,W=(mods+2*q)*o.mw,py=12;
+var fs=Math.max(12,Math.round(o.mw*4+4));
+if(enc.text.length*0.62*fs>W-20)fs=Math.max(8,Math.floor((W-20)/(enc.text.length*0.62)));
+var th=o.txt?fs+10:0,H=py*2+o.h+th;
+cv.width=W;cv.height=H;
+var c=cv.getContext("2d");
+c.fillStyle=o.bg;c.fillRect(0,0,W,H);c.fillStyle=o.fg;
+var x=q*o.mw,bars="",tx="";
+enc.runs.forEach(function(r,i){var w=r*o.mw;if(i%2===0){c.fillRect(x,py,w,o.h);bars+='<rect x="'+x+'" y="'+py+'" width="'+w+'" height="'+o.h+'"/>'}x+=w});
+if(o.txt){var ty=py+o.h+fs+2;c.font=fs+"px monospace";c.textAlign="center";c.fillText(enc.text,W/2,ty);tx='<text x="'+W/2+'" y="'+ty+'" font-family="monospace" font-size="'+fs+'" text-anchor="middle">'+esc(enc.text)+"</text>"}
+svgStr='<svg xmlns="http://www.w3.org/2000/svg" width="'+W+'" height="'+H+'" viewBox="0 0 '+W+" "+H+'" role="img" aria-label="Barcode '+esc(enc.text)+'"><rect width="'+W+'" height="'+H+'" fill="'+o.bg+'"/><g fill="'+o.fg+'">'+bars+tx+"</g></svg>";
+}
+function gen(){
+try{
+var f=$("fmt").value,v=$("val").value.trim(),enc;
+var h=parseInt($("h").value,10);
+if(isNaN(h)||h<40||h>300)throw new Error("Bar height must be between 40 and 300 px.");
+var fg=$("fg").value,bg=$("bg").value;
+if((lum(bg)+0.05)/(lum(fg)+0.05)<3)throw new Error("Use dark bars on a light background. This contrast is too low for scanners.");
+if(f==="c128")enc=e128(v);else if(f==="c39")enc=e39(v.toUpperCase());else enc=eEAN(f,v);
+draw(enc,{mw:+$("mw").value,h:h,fg:fg,bg:bg,txt:$("txt").checked});
+cv.style.display="block";$("ph").style.display="none";
+["png","svg","cp"].forEach(function(i){$(i).disabled=false});
+has=true;
+say("Barcode ready. "+(enc.note||"Download it below or copy the image."),"o");
+}catch(e){
+has=false;cv.style.display="none";$("ph").style.display="";
+["png","svg","cp"].forEach(function(i){$(i).disabled=true});
+say(e.message||"Something went wrong. Please check your value.","e");
+}}
+function save(blob,ext){
+var n=($("val").value.trim().replace(/[^A-Za-z0-9_-]+/g,"-").slice(0,30)||"barcode");
+var a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download="barcode-"+n+"."+ext;
+document.body.appendChild(a);a.click();a.remove();setTimeout(function(){URL.revokeObjectURL(a.href)},1500);
+}
+$("go").onclick=gen;
+$("val").addEventListener("keydown",function(e){if(e.key==="Enter"){e.preventDefault();gen()}});
+["mw","h","fg","bg","txt"].forEach(function(i){$(i).addEventListener("input",function(){if(has)gen()})});
+$("fmt").addEventListener("change",function(){var f=$("fmt").value;$("hint").textContent=HINTS[f];$("val").placeholder=PH[f];has=false;cv.style.display="none";$("ph").style.display="";["png","svg","cp"].forEach(function(i){$(i).disabled=true});say("")});
+$("png").onclick=function(){try{cv.toBlob(function(b){if(!b){say("Couldn't create the PNG. Try a smaller size.","e");return}save(b,"png");say("PNG downloaded.","o")},"image/png")}catch(e){say("Download failed in this browser.","e")}};
+$("svg").onclick=function(){try{save(new Blob([svgStr],{type:"image/svg+xml"}),"svg");say("SVG downloaded.","o")}catch(e){say("Download failed in this browser.","e")}};
+$("cp").onclick=function(){try{
+if(!navigator.clipboard||!window.ClipboardItem){say("Your browser can't copy images. Use Download PNG instead.","e");return}
+cv.toBlob(function(b){navigator.clipboard.write([new ClipboardItem({"image/png":b})]).then(function(){say("Image copied to clipboard.","o")},function(){say("Copy was blocked. Use Download PNG instead.","e")})},"image/png")
+}catch(e){say("Copy failed. Use Download PNG instead.","e")}};
+$("rs").onclick=function(){$("fmt").value="c128";$("val").value="";$("mw").value="3";$("h").value="100";$("fg").value="#000000";$("bg").value="#ffffff";$("txt").checked=true;$("hint").textContent=HINTS.c128;$("val").placeholder=PH.c128;has=false;cv.style.display="none";$("ph").style.display="";["png","svg","cp"].forEach(function(i){$(i).disabled=true});say("");$("val").focus()};
+$("hint").textContent=HINTS.c128;
+}catch(err){var s=document.getElementById("status");if(s)s.textContent="This tool couldn't start in your browser. Please try a current version of Chrome, Firefox, Safari or Edge."}})();
+</script>
+</body>
+</html>
